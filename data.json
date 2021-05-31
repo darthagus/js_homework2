@@ -1,0 +1,37 @@
+[
+    {
+    'name': 'sunday',
+    'traffic': 23
+    },
+    {
+    'name': 'monday',
+    'traffic': 44
+    },
+    {
+    'name': 'tuesday',
+    'traffic': 15
+    },
+    {
+    'name': 'wednesday',
+    'traffic': 8
+    },
+    {
+    'name': 'thrusday',
+    'traffic': 44
+    },
+    {
+    'name': 'friday',
+    'traffic': 23
+    },
+    {
+    'name': 'saturday',
+    'traffic': 44
+    }
+]
+
+['perro','gato','loro'
+],
+['labrador','persa','tropical'
+],
+['canidos','felinos','aves'
+]
