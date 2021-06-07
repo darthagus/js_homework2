@@ -1,4 +1,3 @@
-
 /**
  * This function should calculate the total amount of pet food that should be
  * ordered for the upcoming week.
@@ -52,13 +51,11 @@ function mostPopularDays(week) {
  */
 function createAnimalObjects(names, types, breeds) {
     // IMPLEMENT THIS FUNCTION!
-    console.log(names.length,types.length,breeds.length);
     if (names.length == 0 || types.length == 0 || breeds.length == 0 || !names || !types || !breeds) return [];
-    console.log('pasa filtro');
     var animalObjects = [];
-    for (let i = 0; i <= names.length - 1; i++){
+    for (let i = 0; i <= names.length - 1; i++) {
         animalObjects.push(new Animal(names[i], types[i], breeds[i]));
-            
+
     };
     return animalObjects;
 }
@@ -73,7 +70,7 @@ function createAnimalObjects(names, types, breeds) {
 /**
  * A prototype to create Weekday objects
  */
-function Weekday (name, traffic) {
+function Weekday(name, traffic) {
     this.name = name;
     this.traffic = traffic;
 }
@@ -81,19 +78,19 @@ function Weekday (name, traffic) {
 /**
  * A prototype to create Item objects
  */
-function Item (name, barcode, sellingPrice, buyingPrice) {
-     this.name = name;
-     this.barcode = barcode;
-     this.sellingPrice = sellingPrice;
-     this.buyingPrice = buyingPrice;
-}
- /**
-  * A prototype to create Animal objects
-  */
-function Animal (name, type, breed) {
+function Item(name, barcode, sellingPrice, buyingPrice) {
     this.name = name;
-     this.type = type;
-     this.breed = breed;
+    this.barcode = barcode;
+    this.sellingPrice = sellingPrice;
+    this.buyingPrice = buyingPrice;
+}
+/**
+ * A prototype to create Animal objects
+ */
+function Animal(name, type, breed) {
+    this.name = name;
+    this.type = type;
+    this.breed = breed;
 }
 
 
@@ -104,4 +101,3 @@ function Animal (name, type, breed) {
 function helloworld() {
     return 'hello world!';
 }
-
